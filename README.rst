@@ -2,9 +2,10 @@ REDDIT BOT
 ----------
 A Bot that performs Sentiment Analysis on posts from r/depression subreddit
 
-Visit [Slide show](http://lwgray.github.io) for results of analysis.  Click on sad face below.
+Visit [Slide show](http://lwgray.github.io) for results of analysis.  Click on sad face in the portfolio.
+Download the slideshow for high resolution slides
 
-[.. image:: img/sad3.png](http://lwgray.github.io)
+.. image:: img/sad3.png
  
 Goals of project:
 -----------------
@@ -12,11 +13,14 @@ Goals of project:
 2.  Analyze sentiment of posts
 3.  Score the likelyhood of suicide
 4.  Respond with appropriate suicide hotline information
+5.  Use Flask to provide admin interface to log sentiment scores
 
 Quick Start:
 ------------
 ::    
     $ python app.py
+
+Sentiment scores for reddit post are located in /main/data.csv
 
 File info:
 -----------------

@@ -20,7 +20,8 @@ def collect_data():
     reddit = praw.Reddit(user_agent=user_agent, client_id=REDDIT_ID,
                          client_secret=REDDIT_SECRET)
     # Retreive Depression Subreddit
-    submissions = reddit.get_subreddit("deppression").get_new()
+    subreddit = reddit.subreddit("depression")
+    submissions = subreddit.submissions()
     return submissions
 
 
@@ -40,5 +41,6 @@ def analyze(submissions):
                 continue
     return response
 
+
 if __name__ == '__main__':
-    sys.exit(collect_data())
+    sys.exit(analyze(collect_data()))
