@@ -1,0 +1,6 @@
+/reddit_bot/bin
+/reddit_bot/local
+/reddit_bot/include
+/venv
+*.pyc
+/alchemyapi_python/test.py
