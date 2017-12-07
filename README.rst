@@ -2,7 +2,8 @@ REDDIT BOT
 ----------
 A Bot that performs Sentiment Analysis on posts from r/depression subreddit
 
-Visit [Slide show](http://lwgray.github.io) for results of analysis.  Click on sad face.
+Visit [Slide show](http://lwgray.github.io) for results of analysis.  Click on sad face below.
+
 [.. image:: img/sad3.png](http://lwgray.github.io)
  
 Goals of project:
